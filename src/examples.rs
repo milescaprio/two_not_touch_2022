@@ -1,7 +1,9 @@
-const STARS : usize = 2;
-const GRID_SIZE : usize = 10;
+use crate::STARS;
+use crate::GRID_SIZE;
+use crate::Grid;
+use crate::SectGrid;
 
-pub fn example() -> [[usize; GRID_SIZE]; GRID_SIZE] { 
+pub fn example() -> SectGrid { 
 [
     [0,0,0,0,0,0,0,0,1,1],
     [0,0,0,0,0,0,2,0,1,1],
